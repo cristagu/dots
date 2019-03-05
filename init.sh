@@ -1,3 +1,4 @@
+rm -rf .zshrc .bashrc .ssh .config
 git clone --bare ssh://git@stash.emag.network/ntn/dots-cristi.git $HOME/.cfg
 function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
