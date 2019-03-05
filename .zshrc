@@ -3,3 +3,4 @@ fpath=( "$HOME/.config/zsh" $fpath )
 
 autoload -U promptinit; promptinit
 prompt pure
+asdas
