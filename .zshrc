@@ -5,3 +5,4 @@ fpath=( "$HOME/.config/zsh" $fpath )
 autoload -U promptinit; promptinit
 prompt pure
 
+if [ "$TMUX" = "" ]; then tmux; fi
